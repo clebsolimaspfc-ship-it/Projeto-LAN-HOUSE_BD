@@ -64,7 +64,7 @@ O projeto foi desenvolvido seguindo boas práticas de modelagem relacional e nor
 
 ---
 
-#  Tecnologias Utilizadas
+#  Formas Utilizadas
 
 | Tecnologia           | Finalidade                      |
 | -------------------- | ------------------------------- |
