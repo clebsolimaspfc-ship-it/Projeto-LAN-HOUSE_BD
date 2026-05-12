@@ -64,7 +64,7 @@ O projeto foi desenvolvido seguindo boas práticas de modelagem relacional e nor
 
 ---
 
-# Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 | Tecnologia           | Finalidade                      |
 | -------------------- | ------------------------------- |
@@ -90,7 +90,7 @@ O banco de dados foi modelado utilizando:
 
 # Entidades do Sistema
 
-## clientes
+## Clientes
 
 Responsável pelo armazenamento dos dados dos clientes cadastrados.
 
@@ -105,7 +105,7 @@ Responsável pelo armazenamento dos dados dos clientes cadastrados.
 
 ---
 
-## administradores
+## Administradores
 
 Responsável pelos usuários administrativos do sistema.
 
@@ -120,7 +120,7 @@ Responsável pelos usuários administrativos do sistema.
 
 ---
 
-## computadores
+## Computadores
 
 Tabela responsável pelos computadores da Lan House.
 
@@ -134,7 +134,7 @@ Tabela responsável pelos computadores da Lan House.
 
 ---
 
-## sessoes
+## Sessoes
 
 Controla as sessões realizadas pelos clientes.
 
@@ -148,7 +148,7 @@ Controla as sessões realizadas pelos clientes.
 
 ---
 
-## produtos
+## Produtos
 
 Armazena os produtos vendidos na Lan House.
 
@@ -162,7 +162,7 @@ Armazena os produtos vendidos na Lan House.
 
 ---
 
-## forma_pagamento
+## Forma_pagamento
 
 Responsável pelas formas de pagamento utilizadas.
 
@@ -181,7 +181,7 @@ Exemplos:
 
 ---
 
-## consumo
+## Consumo
 
 Representa os produtos consumidos durante uma sessão.
 
@@ -194,7 +194,7 @@ Representa os produtos consumidos durante uma sessão.
 
 ---
 
-## torneios
+## Torneios
 
 Tabela responsável pelos campeonatos da Lan House.
 
@@ -209,7 +209,7 @@ Tabela responsável pelos campeonatos da Lan House.
 
 ---
 
-## inscricoes
+## Inscricoes
 
 Tabela associativa entre clientes e torneios.
 
@@ -220,7 +220,7 @@ Tabela associativa entre clientes e torneios.
 
 ---
 
-## audit_log
+## Audit_log
 
 Responsável pela auditoria do sistema.
 
