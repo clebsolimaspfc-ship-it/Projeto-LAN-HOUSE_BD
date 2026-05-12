@@ -1,4 +1,4 @@
-# Sistema de Gestão de Lan House
+# Sistema de Gestão Lan House
 
 > Projeto de modelagem de banco de dados, gerenciamento da Lan House.
 
