@@ -23,7 +23,7 @@ Turma: ADS2N
 # Equipe
 
 * Integrante 1: Clebson Alves De Lima
-* Integrante 2: ________________________
+* Integrante 2: Jessica Natália Teófilo da S de Moura
 * Integrante 3: ________________________
 
 Professor(a): Fransisco Erberto
