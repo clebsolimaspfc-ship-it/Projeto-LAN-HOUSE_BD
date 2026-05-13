@@ -24,7 +24,7 @@ Turma: ADS2N
 
 * Integrante 1: Clebson Alves De Lima
 * Integrante 2: Jessica Natália Teófilo da S de Moura
-* Integrante 3: ________________________
+* Integrante 3: Geovani Emanuel de Souza
 
 Professor(a): Fransisco Erberto
 
