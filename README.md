@@ -263,7 +263,7 @@ audit_log
 ```
 ---
 
-### MODELAGRM (DER)
+### MODELAGEM (DER)
 
 <img width="3508" height="2479" alt="modelo_conceitual_brmw" src="https://github.com/user-attachments/assets/b632b66a-442a-431b-834f-975d3cbb68bf" />
 
