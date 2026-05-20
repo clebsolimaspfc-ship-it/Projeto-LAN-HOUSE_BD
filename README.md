@@ -265,6 +265,6 @@ audit_log
 
 ### MMODELAGRM (DER)
 
-<img width="2526" height="1785" alt="DER_LanHouse" src="https://github.com/user-attachments/assets/c03ad3bf-6625-4ba8-8b6a-540d8855e72f" />
+<img width="3508" height="2479" alt="modelo_conceitual_brmw" src="https://github.com/user-attachments/assets/b632b66a-442a-431b-834f-975d3cbb68bf" />
 
 
