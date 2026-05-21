@@ -188,7 +188,7 @@ Representa os produtos consumidos durante uma sessão.
 ### Principais atributos
 
 * id_consumo
-* quantidade
+* quantidade.
 * subtotal
 * data_consumo
 
