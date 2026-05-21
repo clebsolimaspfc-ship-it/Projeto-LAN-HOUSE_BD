@@ -1,87 +1,71 @@
-# Sistema de Gestão Lan House
+# Sistema de Gestão de Lan House
 
-> Projeto de modelagem de banco de dados, gerenciamento da Lan House.
-
----
-
-## Projeto de Banco de Dados — DER, Normalização e Sript.
+Projeto acadêmico desenvolvido para a disciplina de Banco de Dados, com foco em modelagem relacional, normalização, integridade referencial, auditoria de sistema e construção de scripts SQL.
 
 ---
 
-# Faculdade 
+## Instituição
 
-**UNIBRA IBGM**
+UNIBRA IBGM  
+Curso: Análise e Desenvolvimento de Sistemas  
+Disciplina: Banco de Dados  
+Turma: ADS2N  
 
-Curso: Análise e Desenvolvimento de Sistemas
-
-Disciplina: Banco de Dados
-
-Turma: ADS2N
-
----
-
-# Equipe
-
-* Integrante 1: Clebson Alves De Lima
-* Integrante 2: Jessica Natália Teófilo da S de Moura
-* Integrante 3: Geovani Emanuel de Souza
-
-Professor(a): Fransisco Erberto
+Professor: Francisco Erberto
 
 ---
 
-# Título do Projeto
+## Equipe
 
-# Sistema Lan House
-
-Projeto acadêmico desenvolvido com foco em:
-
-* Modelagem de Banco de Dados
-* Normalização (1FN, 2FN e 3FN)
-* Construção de DER
-* Integridade Referencial
-* Segurança de Dados
-* Auditoria de Sistema
-* Constraints Avançadas
-* Script DDL e DML
+- Clebson Alves De Lima
+- Jessica Natália Teófilo da S. de Moura
+- Geovani Emanuel de Souza
 
 ---
 
-# Objetivo do Projeto
+## Objetivo do Projeto
 
-O objetivo do sistema é gerenciar uma Lan House de maneira segura, organizada e eficiente, permitindo:
-
-* Cadastro de clientes
-* Controle de computadores
-* Gerenciamento de sessões
-* Controle de consumo de produtos
-* Registro de pagamentos
-* Controle de torneios
-* Sistema de auditoria (audit_log)
-* Controle administrativo
-
-O projeto foi desenvolvido seguindo boas práticas de modelagem relacional e normalização de banco de dados.
+O projeto tem como objetivo desenvolver um sistema de gerenciamento para uma Lan House, permitindo o controle seguro e organizado de clientes, computadores, sessões, pagamentos, produtos e auditoria administrativa.
 
 ---
 
-#  Formas Utilizadas
+## Principais Recursos
 
-| Tecnologia           | Finalidade                      |
-| -------------------- | ------------------------------- |
-| MySQL                | Banco de Dados                  |
-| SQL                  | Criação das tabelas e consultas |
-| GitHub               | Versionamento do projeto        |
-| BRMODELO             | Criação do DER                  |
+- Modelagem Entidade-Relacionamento (DER)
+- Normalização (1FN, 2FN e 3FN)
+- Integridade Referencial
+- Constraints e Validações
+- Controle Administrativo
+- Sistema de Auditoria (`audit_log`)
+- Scripts DDL e DML
+- Estrutura relacional segura e organizada
 
 ---
 
-# Estrutura do Banco de Dados
+## Tecnologias Utilizadas
 
-O banco de dados foi modelado utilizando:
+| Tecnologia | Finalidade |
+|------------|------------|
+| MySQL | Banco de Dados |
+| SQL | Criação das tabelas e consultas |
+| GitHub | Versionamento do projeto |
+| BRModelo | Modelagem do DER |
 
-* Entidades fortes
-* Entidades fracas
-* Chaves primárias e estrangeiras
-* Cardinalidades
-* Constraints
-* Auditoria de eventos
+---
+
+## Estrutura do Sistema
+
+O banco de dados foi desenvolvido utilizando:
+
+- Entidades fortes e fracas
+- Chaves primárias e estrangeiras
+- Cardinalidades
+- Relacionamentos normalizados
+- Regras de integridade
+- Auditoria de eventos
+
+---
+
+## Projeto Acadêmico
+
+Desenvolvido para fins educacionais, aplicando conceitos de modelagem de banco de dados relacional e boas práticas de desenvolvimento SQL.
