@@ -169,3 +169,8 @@ audit_log
 
 <img width="3508" height="2479" alt="modelo_conceitual_brmw" src="https://github.com/user-attachments/assets/b632b66a-442a-431b-834f-975d3cbb68bf" />
 
+### MODELAGEM (MER)
+
+<img width="1894" height="809" alt="mysql 2" src="https://github.com/user-attachments/assets/e5222b76-bf8a-4049-879a-1db5e5ed68a8" />
+
+
