@@ -1,0 +1,59 @@
+INSERT INTO Cliente (nome, cpf, email, telefone, data_cadastro) VALUES
+('Ana Beatriz Rocha', '111.222.333-44', 'ana.rocha@email.com', '(11) 98765-0001', '2026-05-01 10:30:00'),
+('Carlos Eduardo Lima', '222.333.444-55', 'cadu.lima@email.com', '(11) 98765-0002', '2026-05-02 14:15:00'),
+('Bruno Almeida', '333.444.555-66', 'bruno.games@email.com', '(11) 98765-0003', '2026-05-03 09:00:00'),
+('Daniela Martins', '444.555.666-77', 'dani.martins@email.com', '(11) 98765-0004', '2026-05-04 16:45:00'),
+('Felipe Costa', '555.666.777-88', 'felipe.costa@email.com', '(11) 98765-0005', '2026-05-05 18:20:00'),
+('Gabriel Santos', '666.777.888-99', 'gabi.santos@email.com', '(11) 98765-0006', '2026-05-06 20:10:00'),
+('Hugo Oliveira', '777.888.999-00', 'hugo.oli@email.com', '(11) 98765-0007', '2026-05-07 11:05:00'),
+('Isabela Fernandes', '888.999.000-11', 'isa.fer@email.com', '(11) 98765-0008', '2026-05-08 13:30:00'),
+('João Pedro Souza', '999.000.111-22', 'jp.souza@email.com', '(11) 98765-0009', '2026-05-09 15:50:00'),
+('Larissa Mendes', '000.111.222-33', 'lari.mendes@email.com', '(11) 98765-0010', '2026-05-10 19:00:00'),
+('Marcos Paulo', '123.456.789-00', 'marcos.p@email.com', '(11) 98765-0011', '2026-05-11 22:15:00'),
+('Natália Ribeiro', '987.654.321-11', 'nat.ribeiro@email.com', '(11) 98765-0012', '2026-05-12 08:45:00'),
+('Otávio Silva', '456.789.123-22', 'otavio.silva@email.com', '(11) 98765-0013', '2026-05-13 14:00:00'),
+('Paula Gonçalves', '789.123.456-33', 'paula.g@email.com', '(11) 98765-0014', '2026-05-14 17:30:00'),
+('Rafael Teixeira', '321.654.987-44', 'rafael.t@email.com', '(11) 98765-0015', '2026-05-15 21:00:00');
+
+
+INSERT INTO Computador (nome, especificacao, status, preco_hora) VALUES
+-- Área Standard (Jogos Casuais e MOBA)
+('PC-STD-01', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Livre', 8.00),
+('PC-STD-02', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Ocupado', 8.00),
+('PC-STD-03', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Livre', 8.00),
+('PC-STD-04', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Livre', 8.00),
+('PC-STD-05', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Ocupado', 8.00),
+('PC-STD-06', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Inativo', 8.00),
+-- Área Pro (FPS Competitivo)
+('PC-PRO-07', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Livre', 12.00),
+('PC-PRO-08', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Ocupado', 12.00),
+('PC-PRO-09', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Livre', 12.00),
+('PC-PRO-10', 'Intel i5 12400F, 16GB RAM, RTX 3060 Ti, Monitor 144Hz', 'Livre', 12.00),
+('PC-PRO-11', 'Intel i5 12400F, 16GB RAM, RTX 3060 Ti, Monitor 144Hz', 'Ocupado', 12.00),
+-- Área VIP / Streamer
+('PC-VIP-12', 'Ryzen 7 5800X3D, 32GB RAM, RTX 4070, Monitor 240Hz, Mic Shure', 'Livre', 20.00),
+('PC-VIP-13', 'Ryzen 7 5800X3D, 32GB RAM, RTX 4070, Monitor 240Hz, Mic Shure', 'Ocupado', 20.00),
+('PC-VIP-14', 'Intel i7 13700K, 32GB RAM, RTX 4070 Ti, Monitor 240Hz, WebCam 4K', 'Livre', 25.00),
+('PC-VIP-15', 'Intel i7 13700K, 32GB RAM, RTX 4070 Ti, Monitor 240Hz, WebCam 4K', 'Livre', 25.00);
+
+
+INSERT INTO Produto (nome, preco, estoque, categoria) VALUES
+-- Bebidas
+('Coca-Cola Lata 350ml', 6.00, 100, 'Bebida'),
+('Energético Monster Green 473ml', 15.00, 50, 'Bebida'),
+('Energético Red Bull 250ml', 14.00, 60, 'Bebida'),
+('Água Mineral sem gás 500ml', 4.00, 120, 'Bebida'),
+-- Snacks / Lanches Rápidos
+('Salgadinho Doritos Queijo Nacho 84g', 9.00, 40, 'Snack'),
+('Amendoim Japonês Dori 150g', 7.50, 30, 'Snack'),
+('Chocolate Snickers', 5.00, 50, 'Snack'),
+('Misto Quente na Chapa', 12.00, 20, 'Lanche'),
+('Hambúrguer Lan House Especial', 22.00, 15, 'Lanche'),
+-- Objetos de Torneio (Souvenir)
+('Camiseta Oficial - Torneio CS:GO Local', 65.00, 15, 'Souvenir'),
+('Chaveiro de Armas Valorant', 15.00, 30, 'Souvenir'),
+('Copo Personalizado Arena E-sports', 25.00, 45, 'Souvenir'),
+-- Periféricos de "Emergência" para Venda
+('Mousepad Gamer Speed Extra Grande', 45.00, 10, 'Periferico'),
+('Mouse Gamer Redragon Cobra', 120.00, 5, 'Periferico'),
+('Cabo Carregador Tipo-C 2 metros', 35.00, 12, 'Periferico');
