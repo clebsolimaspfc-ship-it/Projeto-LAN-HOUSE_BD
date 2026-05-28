@@ -16,52 +16,38 @@ INSERT INTO Cliente (nome, cpf, email, telefone, data_cadastro) VALUES
 ('Paula Gonçalves', '789.123.456-33', 'paula.g@email.com', '(11) 98765-0014', '2026-05-14 17:30:00'),
 ('Rafael Teixeira', '321.654.987-44', 'rafael.t@email.com', '(11) 98765-0015', '2026-05-15 21:00:00');
 
-
 INSERT INTO Computador (nome, especificacao, status, preco_hora) VALUES
 
--- Área Standard (Jogos Casuais e MOBA)
 ('PC-STD-01', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Livre', 8.00),
 ('PC-STD-02', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Ocupado', 8.00),
 ('PC-STD-03', 'Intel i5 10400F, 16GB RAM, GTX 1660 Super, Monitor 75Hz', 'Livre', 8.00),
 ('PC-STD-04', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Livre', 8.00),
 ('PC-STD-05', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Ocupado', 8.00),
 ('PC-STD-06', 'Ryzen 5 3600, 16GB RAM, RX 580 8GB, Monitor 75Hz', 'Inativo', 8.00),
-
--- Área Pro (FPS Competitivo)
 ('PC-PRO-07', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Livre', 12.00),
 ('PC-PRO-08', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Ocupado', 12.00),
 ('PC-PRO-09', 'Ryzen 5 5600X, 16GB RAM, RTX 3060 12GB, Monitor 144Hz', 'Livre', 12.00),
 ('PC-PRO-10', 'Intel i5 12400F, 16GB RAM, RTX 3060 Ti, Monitor 144Hz', 'Livre', 12.00),
 ('PC-PRO-11', 'Intel i5 12400F, 16GB RAM, RTX 3060 Ti, Monitor 144Hz', 'Ocupado', 12.00),
-
--- Área VIP / Streamer
 ('PC-VIP-12', 'Ryzen 7 5800X3D, 32GB RAM, RTX 4070, Monitor 240Hz, Mic Shure', 'Livre', 20.00),
 ('PC-VIP-13', 'Ryzen 7 5800X3D, 32GB RAM, RTX 4070, Monitor 240Hz, Mic Shure', 'Ocupado', 20.00),
 ('PC-VIP-14', 'Intel i7 13700K, 32GB RAM, RTX 4070 Ti, Monitor 240Hz, WebCam 4K', 'Livre', 25.00),
 ('PC-VIP-15', 'Intel i7 13700K, 32GB RAM, RTX 4070 Ti, Monitor 240Hz, WebCam 4K', 'Livre', 25.00);
 
-
 INSERT INTO Produto (nome, preco, estoque, categoria) VALUES
 
--- Bebidas
 ('Coca-Cola Lata 350ml', 6.00, 100, 'Bebida'),
 ('Energético Monster Green 473ml', 15.00, 50, 'Bebida'),
 ('Energético Red Bull 250ml', 14.00, 60, 'Bebida'),
 ('Água Mineral sem gás 500ml', 4.00, 120, 'Bebida'),
-
--- Snacks / Lanches Rápidos
 ('Salgadinho Doritos Queijo Nacho 84g', 9.00, 40, 'Lanche'),
 ('Amendoim Japonês Dori 150g', 7.50, 30, 'Lanche'),
 ('Chocolate Snickers', 5.00, 50, 'Lanche'),
 ('Batata Frita Ruffles Tubo 100g', 12.90, 20, 'Lanche'),
 ('Cheetos 160g', 11.90, 15, 'Lanche'),
-
--- Objetos de Torneio (objetos)
 ('Camiseta Oficial - Torneio CS:GO Local', 65.00, 15, 'objetos'),
 ('Chaveiro de Armas Valorant', 15.00, 30, 'objetos'),
 ('Copo Personalizado Arena E-sports', 25.00, 45, 'objetos'),
-
--- Periféricos de "Emergência" para Venda
 ('Mousepad Gamer Speed Extra Grande', 45.00, 10, 'Periferico'),
 ('Mouse Gamer Redragon Cobra', 120.00, 5, 'Periferico'),
 ('Cabo Carregador Tipo-C 2 metros', 35.00, 12, 'Periferico');
